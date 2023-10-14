@@ -19,7 +19,7 @@
         
         background-color: #0CC0DF; 
         width: 600px;
-        height: 300px;
+        height: 550px;
         margin: auto;
         margin-top: 150px;
         padding: 0px;
@@ -47,7 +47,7 @@
     #submit_box {
 
         height: 40px;
-        width: 140px;
+        width: 300px;
         border-radius: 4px;
         border: solid 1px gray;
         background-color: white;
@@ -70,10 +70,11 @@
         Welcome back! <br> <br>
 
         <input type="text" id="text_box" placeholder="Username"> <br><br>
+        <input type="text" id="text_box" placeholder="Email"> <br><br>
         <input type="password" id="text_box" placeholder="Password"> <br><br>
-       
-        <input type="submit" id="submit_box" value="Login">
-        <a href="signup.php"> <input type="submit" id="submit_box" value="Signup">
+        <input type="password" id="text_box" placeholder="Repeat password"> <br><br>
+        <input type="date" id="text_box" placeholder="Birthday"> <br><br>
+        <input type="submit" id="submit_box" value="Signup">
         </div>
 
         </div>
@@ -83,5 +84,3 @@
 </body>
 
 </html>
-
-
