@@ -1,3 +1,12 @@
+<?php
+
+    echo "<pre>";
+    print_r($_POST);
+    echo "</pre>"
+
+
+?>
+
 <html>
     <head>
         <title> Social Net </title>
@@ -66,20 +75,19 @@
         SocialNet 
         </div>
 
-        <div id=card>
+    <div id=card>
         Welcome back! <br> <br>
+        
+        <form method="post" action=""> 
+        <input type="text" id="text_box" placeholder="Username" name="userid"> <br><br>
+        <input type="text" id="text_box" placeholder="Email" name="email"> <br><br>
+        <input type="password" id="text_box" placeholder="Password" name="password"> <br><br>
+        <input type="password" id="text_box" placeholder="Repeat password" name="password2"> <br><br>
+        <input type="submit" id="submit_box" value="Sign Up">
+        
+    </div>
 
-        <input type="text" id="text_box" placeholder="Username"> <br><br>
-        <input type="text" id="text_box" placeholder="Email"> <br><br>
-        <input type="password" id="text_box" placeholder="Password"> <br><br>
-        <input type="password" id="text_box" placeholder="Repeat password"> <br><br>
-        <input type="date" id="text_box" placeholder="Birthday"> <br><br>
-        <input type="submit" id="submit_box" value="Signup">
-        </div>
-
-        </div>
-
-
+        </form>
 
 </body>
 
